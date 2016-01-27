@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bubble_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backrepeat"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <com.example.pickanimal.MyImageView
+        android:id="@+id/X"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/animal_background"
+        android:contentDescription="@string/cat"
+        android:src="@drawable/cat" />
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="19dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/bg_text"
+        android:text="@string/N0"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <com.example.pickanimal.MyImageView
+        android:id="@+id/soundOnOff"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/soundOnOff"
+        android:src="@drawable/sound" />
+
+    <TextView
+        android:id="@+id/timeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/restart"
+        android:layout_alignBottom="@+id/restart"
+        android:layout_toRightOf="@+id/restart"
+        android:background="@drawable/bg_text"
+        android:text="@string/time"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/button_restart"
+        android:onClick="restart" />
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/timeText"
+        android:layout_alignBottom="@+id/timeText"
+        android:layout_marginLeft="16dp"
+        android:layout_toLeftOf="@+id/X"
+        android:layout_toRightOf="@+id/timeText"
+        android:background="@drawable/bg_text"
+        android:text="@string/N0"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

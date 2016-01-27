@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gui_mainmenu_bg"
+    android:gravity="center"
+    android:minHeight="46px"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainMenu" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/gui_mainmenu_center_image"
+        android:editable="false"
+        android:focusable="false"
+        tools:ignore="SelectableText,Deprecated" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/countMode"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/gui_mainmenu_app_name"
+        android:editable="false"
+        android:focusable="false"
+        tools:ignore="SelectableText,Deprecated" />
+
+    <RadioGroup
+        android:id="@+id/difficult"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/quit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/difficultSelect"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/gui_mainmenu_button_exit"
+        android:maxHeight="46px"
+        android:maxWidth="134px"
+        android:minHeight="46px"
+        android:minWidth="134px" />
+
+    <TextView
+        android:id="@+id/timeMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/gui_mainmenu_button_time_mode"
+        android:maxHeight="46px"
+        android:maxWidth="134px"
+        android:minHeight="46px"
+        android:minWidth="134px"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Spinner
+        android:id="@+id/difficultSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timeMode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/gui_mainmenu_button_difficulity"
+        android:maxHeight="46px"
+        android:maxWidth="134px"
+        android:minHeight="46px"
+        android:minWidth="134px"
+        android:popupBackground="@drawable/gui_mainmenu_spinner_bg"
+        tools:listitem="@android:layout/simple_spinner_item" />
+
+    <TextView
+        android:id="@+id/countMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/timeMode"
+        android:layout_alignLeft="@+id/timeMode"
+        android:background="@drawable/gui_mainmenu_button_count_mode"
+        android:maxHeight="46px"
+        android:maxWidth="134px"
+        android:minHeight="46px"
+        android:minWidth="134px"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        tools:ignore="SelectableText" />
+    
+</RelativeLayout>

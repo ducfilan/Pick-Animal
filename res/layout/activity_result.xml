@@ -1,0 +1,270 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/d2"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ResultActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_text"
+        android:orientation="horizontal" >
+
+        <com.example.pickanimal.MyImageView
+            android:id="@+id/dogAnimal"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/dog" />
+
+        <TextView
+            android:id="@+id/dogNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/number"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <com.example.pickanimal.MyImageView
+            android:id="@+id/bearAnimal"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/bear" />
+
+        <TextView
+            android:id="@+id/bearNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/number"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <com.example.pickanimal.MyImageView
+            android:id="@+id/catAnimal"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/cat" />
+
+        <TextView
+            android:id="@+id/catNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/number"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_text"
+        android:orientation="horizontal" >
+
+        <com.example.pickanimal.MyImageView
+            android:id="@+id/cowAnimal"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/cow" />
+
+        <TextView
+            android:id="@+id/cowNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/number"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <com.example.pickanimal.MyImageView
+            android:id="@+id/eagleAnimal"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/eagle" />
+
+        <TextView
+            android:id="@+id/eagleNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/number"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <com.example.pickanimal.MyImageView
+            android:id="@+id/dolphinAnimal"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/dolphin" />
+
+        <TextView
+            android:id="@+id/dolphinNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/number"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_text"
+        android:orientation="horizontal" >
+
+        <com.example.pickanimal.MyImageView
+            android:id="@+id/elephantAnimal"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/elephant" />
+
+        <TextView
+            android:id="@+id/elephantNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/number"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <com.example.pickanimal.MyImageView
+            android:id="@+id/tigerAnimal"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/tiger" />
+
+        <TextView
+            android:id="@+id/tigerNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/number"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <com.example.pickanimal.MyImageView
+            android:id="@+id/frogAnimal"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/frog" />
+
+        <TextView
+            android:id="@+id/frogNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/number"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_text"
+        android:orientation="horizontal" >
+
+        <com.example.pickanimal.MyImageView
+            android:id="@+id/pigAnimal"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/pig" />
+
+        <TextView
+            android:id="@+id/pigNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/number"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <com.example.pickanimal.MyImageView
+            android:id="@+id/wolfAnimal"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/wolf" />
+
+        <TextView
+            android:id="@+id/wolfNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/number"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <com.example.pickanimal.MyImageView
+            android:id="@+id/horseAnimal"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/horse" />
+
+        <TextView
+            android:id="@+id/horseNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/number"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/bonus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_text"
+        android:text="@string/Bonus"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_text"
+        android:text="@string/total"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/Comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_text"
+        android:text="@string/hello_world"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/restartGame"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_replay" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.42" />
+
+        <Button
+            android:id="@+id/Menu"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_home" />
+    </LinearLayout>
+
+</LinearLayout>
